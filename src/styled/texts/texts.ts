@@ -12,6 +12,13 @@ export const HeadingTextLevelThreeCentered = styled.h3`
  font-size: 0.9rem;
 `
 
+export const HeadingTextLevelThreeCenteredFlexCentered = styled.h3`
+ font-size: 0.9rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+`
+
 export const BannerText = styled.p`
  display: flex;
  align-items: center;
