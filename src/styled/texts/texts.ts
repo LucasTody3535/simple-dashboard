@@ -7,3 +7,15 @@ export const TipText = styled.p`
  text-align: center;
 `
 
+export const HeadingTextLevelThree = styled.h3`
+ text-align: center;
+ font-size: 0.9rem;
+`
+
+export const BannerText = styled.p`
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 5rem;
+`
+
