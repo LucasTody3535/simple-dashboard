@@ -37,4 +37,28 @@ export const GrayFilledTitleAndContentGridLayout = styled.div`
   grid-template-columns: 100%;
   background-color: rgba(33, 31, 31, 0.1);
   padding: 2px;
+export const TinyAndBigColumnsGridLayout = styled.div`
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 100%;
+  grid-template-columns: 30% 70%;
+`
+
+export const VerticalTripleBoxGridLayout = styled.div`
+ display: grid;
+ height: 100%;
+ width: 100%;
+ grid-template-rows: repeat(3, 32%);
+ padding: 1% 0;
+ row-gap: 1%;
+ grid-template-columns: 100%;
+`
+
+export const GrayFullSizeDivContainerRounded = styled.div`
+ height: 100%;
+ width: 100%;
+ padding: 5px;
+ background-color: rgba(33, 31, 31, 0.1);
+ border-radius: 8px;
 `
