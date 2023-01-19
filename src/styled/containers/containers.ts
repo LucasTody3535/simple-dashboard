@@ -17,7 +17,7 @@ export const TitleAndContentGridLayout = styled.div`
  height: 100%;
  width: 100%;
  row-gap: 2%;
- grid-template-rows: 5% 93%;
+ grid-template-rows: 30px auto;
  grid-template-columns: 100%;
 `
 
