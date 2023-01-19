@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const HorizontalMenuWithThreeItems = styled.nav`
- height: 10%;
+ height: 100%;
  width: 100%;
  display: grid;
- grid-template-columns: repeat(3, 30%);
- padding-left: 10px;
- padding-right: 10px;
+ column-gap: 5px;
+ grid-template-columns: repeat(3, 33%);
 `
 
