@@ -7,7 +7,7 @@ export const TipText = styled.p`
  text-align: center;
 `
 
-export const HeadingTextLevelThree = styled.h3`
+export const HeadingTextLevelThreeCentered = styled.h3`
  text-align: center;
  font-size: 0.9rem;
 `
