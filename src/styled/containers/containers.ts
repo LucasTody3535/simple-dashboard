@@ -20,3 +20,13 @@ export const TitleAndContentGridLayout = styled.div`
  grid-template-rows: 5% 93%;
  grid-template-columns: 100%;
 `
+
+export const GrayTitleAndContentGridLayout = styled.div`
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 5% 95%;
+  grid-template-columns: 100%;
+  background-color: rgba(33, 31, 31, 0.1);
+  padding: 2px;
+`
