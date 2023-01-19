@@ -2,11 +2,14 @@ import styled from "styled-components";
 
 export const InfinityGridLayout = styled.div`
  display: grid;
- grid-auto-rows: 50%;
- grid-template-columns: repeat(2, 50%);
+ grid-auto-rows: 49%;
+ grid-template-columns: repeat(3, 33%);
  width: 100%;
  height: 100%;
  overflow-y: scroll;
+ column-gap: 2%;
+ row-gap: 2%;
+ padding: 0 2%;
 `
 
 export const TitleAndContentGridLayout = styled.div`
