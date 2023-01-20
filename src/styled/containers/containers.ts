@@ -30,13 +30,15 @@ export const GrayFilledTitleAndContentGridLayout = styled.div`
  grid-template-columns: 100%;
  background-color: rgba(33, 31, 31, 0.1);
 `
+
+export const NavAndContentGridLayout = styled.div`
   display: grid;
   height: 100%;
   width: 100%;
-  grid-template-rows: 5% 95%;
+  grid-template-rows: 30px auto;
   grid-template-columns: 100%;
-  background-color: rgba(33, 31, 31, 0.1);
-  padding: 2px;
+`
+
 export const TinyAndBigColumnsGridLayout = styled.div`
   display: grid;
   height: 100%;
