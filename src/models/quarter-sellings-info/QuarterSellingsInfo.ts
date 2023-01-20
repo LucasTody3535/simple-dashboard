@@ -31,5 +31,12 @@ export class QuarterSellingsInfo {
    .map(sector => sector.getTotalIncome())
    .reduce((previous, actual) => previous + actual)
  }
+
+ getTotalLoss(excludeSector: string) {
+  return this.getSectorsSellings()
+   .filter((sector) => sector.getName() !== excludeSector)
+   .map(sector => sector.getTotalLost())
+   .reduce((previous, actual) => previous + actual)
+ }
 }
 
