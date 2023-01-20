@@ -1,5 +1,7 @@
 # Simple Dashboard
 
+[English](./README-EN.md)
+
 ## Objetivo
 
 Construir um dashboard de mercado simples, porém, reativo usando a ferramenta React
